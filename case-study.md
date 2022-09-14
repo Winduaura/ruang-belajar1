@@ -86,17 +86,7 @@ Kemudian kita mulai bekerja pada file `material.html` dengan menambahkan beberap
 Dan beberapa list pertanyaan pada file `question.html` yaitu:
 
 ```html
-<html>
-<head>
-    <title>Question Page</title>
-</head>
-<body>
-    <ul>
-        <li>What is Git?</li>
-        <li>Why use Git?</li>
-    <ul>
-</body>
-</html>
+
 ```
 
 Selanjutnya, kita membuat commit untuk file `material.html` saja dengan pesan "add list material". Dan di commit berikutnya untuk file `question.html` dengan pesan "add list question".
@@ -132,15 +122,7 @@ Sehingga struktur folder di branch `dashboard-feature` akan terlihat seperti ini
 Lalu kita tambahkan commit untuk penambahan file tersebut dengan pesan "init dashboard page". Selanjutnya, kita menambahkan file tersebut dengan code:
 
 ```html
-<html>
-<head>
-    <title>Dashboard Page</title>
-</head>
-<body>
-    <div>Chart1<div>
-    <div>Chart2<div>
-</body>
-</html>
+ 
 ```
 
 Karena malah sudah larut dan kita butuh istirahat untuk lanjut bekerja di keesokan harinya. Akhirnya sementara kita menyudahi pekerjaan di branch `dashboard-feature` dan beristirahat. Namun sebelum itu, tidak lupa kita melakukan commit dengan pesan "add initial chart 1 and chart 2"
@@ -296,7 +278,7 @@ Tidak lupa melakukan commit dengan pesan "add 1000 question". Namun, baru saja k
     <h1>Soal 5</h1>
 </body>
 </html>
-```
+``
 
 Tidak lupa melakukan commit dengan pesan "change 1000 to 5 question". Tapi seiring aplikasi ini dipresentasikan, ternyata memang aplikasi ini butuh soal sebanyak 1000. Jadi kita diminta untuk menulis kembali soal yang berjumlah 1000 yang telah kita buat sebelumnya dengan cepat.
 
